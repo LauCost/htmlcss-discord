@@ -16,7 +16,7 @@
 
 .debug > main{
     width: 100%;
-    height: 900px;
+    height: 2380px;
 }
 
 .debug > footer {
@@ -68,13 +68,16 @@ nav > a{
 
 /* Varie sezioni main */
 
+/* Contenuto in comune e vari raggruppamenti */
+
+
 /* Sezione Posto Per Parlare */
 .posto{
     width: 100%;
-    height: 100%;
+    height: 595px;
     background-image: url(./img/junbo.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .txt_posto{
@@ -87,3 +90,39 @@ nav > a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* /Sezione Posto Per Parlare */
+
+
+/* Sezione Un luogo */
+.luogo{
+    width: 70%;
+    height: 595px;
+    margin: auto;
+    background-color: red;
+}
+
+.img{
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-color: yellow;
+    position: relative;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.txt{
+    width: 30%;
+    height: 400px;
+    float: left;
+    background-color: teal;
+    position: relative;
+    top: 58.5%;
+    left: 40%;
+    transform: translate(-100%, -50%);
+}
+
+
+
+/* Sezione Trovarsi */
