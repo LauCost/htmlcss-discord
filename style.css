@@ -62,3 +62,28 @@ nav > a{
 .cont_nav > button{
     float: right;
 }
+/* /Nav e logo */
+
+
+
+/* Varie sezioni main */
+
+/* Sezione Posto Per Parlare */
+.posto{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/junbo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.txt_posto{
+    width: 70%;
+    height: 300px;
+    background-color: chartreuse;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
