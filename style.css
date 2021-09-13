@@ -91,7 +91,7 @@ nav > a{
     margin-top: 24px;
 }
 
-.luogo, .luogo2{
+.luogo, .luogo2, .luogo3{
     width: 70%;
     margin: auto;
     height: 100%;
@@ -217,6 +217,11 @@ h4{
 /* /Sezione Tecnologia */
 
 /* Sezione footer */
+.luogo3{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
 .lista{
     width: 20%;
     display: flex;
@@ -248,8 +253,16 @@ h4{
     color: white;
 }
 
-.punto{
-    color: var(--white);
+.social{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social > a{
+    padding-right: 40px;
+    color: white;
 }
 
 .lista1{
