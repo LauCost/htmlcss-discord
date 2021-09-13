@@ -119,22 +119,28 @@ nav > a{
     text-decoration: none;
 }
 
-.test, .cont-ondina{
+.cont-ondina, .cont-ondina2{
     position: relative;
     padding: 130px 0;
 }
 
-.test > .ondina, .cont-ondina > .ondina{
+.cont-ondina > .ondina, .cont-ondina2 > .ondina{
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.test > .ondina2{
+.cont-ondina > .ondina2{
     top: 0;
     left: 0;
     transform: rotate(180deg);
 }
+button:hover{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    filter: opacity(0.5);
+}
+
+
 /* /Contenuto in comune con vari raggruppamenti */
 
 
@@ -172,11 +178,18 @@ nav > a{
     background-color: white;
 }
 
+.scarica > a{
+    color: #2B2F32;
+}
+
 #apri{
-    color: white;
     background-color: #23272A;
 }
 
+#apri > a{
+    color: white;
+    text-decoration: none;
+}
 /* /Sezione Posto Per Parlare */
 
 
@@ -213,7 +226,7 @@ nav > a{
 
 
 /* Sezione Tecnologia */
-.cont-ondina{
+.cont-ondina2{
     padding-bottom: 0;
 }
 .luogo2{
