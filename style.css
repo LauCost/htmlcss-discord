@@ -85,7 +85,7 @@ nav > a{
 /* Varie sezioni main */
 
 /* Contenuto in comune con vari raggruppamenti */
-.txt > h2, .txt3 > h2,{
+.txt > h2, .txt3 > h2{
     font-weight: 700;
     line-height: 120%;
     font-size: 48px;
@@ -117,6 +117,23 @@ nav > a{
 
 .scarica > a, .scarica2 > a{
     text-decoration: none;
+}
+
+.test, .cont-ondina{
+    position: relative;
+    padding: 130px 0;
+}
+
+.test > .ondina, .cont-ondina > .ondina{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.test > .ondina2{
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
 }
 /* /Contenuto in comune con vari raggruppamenti */
 
@@ -181,9 +198,11 @@ nav > a{
 
 
 /* Sezione Trovarsi */
+
 .cont{
     width: 100%;
     background-color: #F6F6F6;
+   /*  background-image: url(./img/wave.svg);  */
 }
 
 .txt2{
@@ -194,6 +213,9 @@ nav > a{
 
 
 /* Sezione Tecnologia */
+.cont-ondina{
+    padding-bottom: 0;
+}
 .luogo2{
     text-align: center;
 }
