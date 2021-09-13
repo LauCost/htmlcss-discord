@@ -7,6 +7,8 @@
 
 .clearfix:hover{
     display: table;
+    content: "";
+    clear: both;
 }
 
 .debug > header{
@@ -44,7 +46,7 @@ header{
 nav{
     float: left;
     text-align: center;
-    margin: 0 15%;
+    margin: 0 16.6%;
 }
 
 nav > a{
@@ -74,8 +76,6 @@ nav > a{
 
 /* Sezione Posto Per Parlare */
 .posto{
-    /* width: 100%;
-    height: 595px; */
     background-image: url(./img/junbo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,19 +92,23 @@ nav > a{
 }
 
 .txt_posto > h1{
-    
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 48px;
 }
 
 .txt_posto > p{
-    padding: 30px 350px;
+    padding: 30px 300px;
+    font-size: clamp(16px,2vw,20px);
+    line-height: 1.625;
 }
 
 .txt_posto > button{
     padding: 10px 25px;
     border-radius: 50px;
     border: none;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
     margin: 0 10px;
 }
 
@@ -125,24 +129,28 @@ nav > a{
 .luogo > img{
     margin: 45px 0;
     float: left;
-    width: 50%;
-    /* position: relative;
-    top: 50%;
-    left: 35%;
-    transform: translate(-50%, -50%); */
+    width: 60%;
 }
 
 .txt{
-    margin: 65px 0;
-    width: 30%;
+    margin: 85px 0;
+    width: 40%;
     height: 100%;
-    float: left;
-  /*position: relative;
-    top: 58.5%;
-    left: 40%;
-    transform: translate(-100%, -50%); */
+    float: right;
+    padding-left: 200px;
 }
 
+.txt > h2{
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 48px;
+}
+
+.txt > p{
+    font-size: clamp(16px,2vw,20px);
+    line-height: 1.625;
+    margin-top: 24px;
+}
 
 
 /* Sezione Trovarsi */
